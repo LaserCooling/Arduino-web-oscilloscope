@@ -3,7 +3,7 @@
 
 <head>
 
-<title>Web Oscilloscope</title>
+<title>Realtime DAQ Oscilloscope</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -13,11 +13,76 @@
 
 <body>
 
-<h1>Arduino Web Oscilloscope</h1>
+<div class="topbar">
+
+<h1>Realtime DAQ Oscilloscope</h1>
 
 <button id="connectButton">
 Connect Arduino
 </button>
+
+</div>
+
+<div class="controls">
+
+<div class="channel">
+
+<h3>CH1</h3>
+
+<label>
+<input type="checkbox" id="chk1" checked>
+Enable
+</label>
+
+<input type="range"
+id="freq1"
+min="1"
+max="20"
+value="5">
+
+<p>Frequency</p>
+
+</div>
+
+<div class="channel">
+
+<h3>CH2</h3>
+
+<label>
+<input type="checkbox" id="chk2" checked>
+Enable
+</label>
+
+<input type="range"
+id="freq2"
+min="1"
+max="20"
+value="8">
+
+<p>Frequency</p>
+
+</div>
+
+<div class="channel">
+
+<h3>CH3</h3>
+
+<label>
+<input type="checkbox" id="chk3" checked>
+Enable
+</label>
+
+<input type="range"
+id="freq3"
+min="1"
+max="20"
+value="12">
+
+<p>Frequency</p>
+
+</div>
+
+</div>
 
 <div id="graph"></div>
 
