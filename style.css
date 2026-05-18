@@ -1,0 +1,26 @@
+body{
+    background:#111;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+h1{
+    color:cyan;
+}
+
+button{
+    background:#00aaee;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#graph{
+    width:95%;
+    height:700px;
+    margin:auto;
+}
